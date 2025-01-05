@@ -7,7 +7,7 @@ namespace PhotoViewerLaunch
   {
     static void Main(string[] args)
     {
-      if(args.Length!=0){
+      if(args.Length != 0){
         Process.Start(new ProcessStartInfo
             {
             UseShellExecute = true,
@@ -16,7 +16,6 @@ namespace PhotoViewerLaunch
             FileName = "photoviewer.bat",
             Arguments = args[0],
             });
-
       }
     }
   }
